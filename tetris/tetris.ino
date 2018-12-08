@@ -161,29 +161,30 @@ int wholenote = (60000 * 4) / tempo;
 int divider = 0, noteDuration = 0;
 
 void setup() {
-
-  // iterate over the notes of the melody, the array is twice the number of notes
+  // iterate over the notes of the melody. 
+  // Remember, the array is twice the number of notes (notes + durations)
   for (int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2) {
 
     // calculates the duration of each note
     divider = melody[thisNote + 1];
     if (divider > 0) {
+      // regular note, just proceed
       noteDuration = (wholenote) / divider;
     } else if (divider < 0) {
+      // dotted notes are represented with negative durations!!
       noteDuration = (wholenote) / abs(divider);
-      noteDuration *= 1.5; // increses the duration in half for dotted notes
+      noteDuration *= 1.5; // increases the duration in half for dotted notes
     }
 
-    //play the note for the designated time
-    tone(11, melody[thisNote], noteDuration);
+    // we only play the note for 90% of the duration, leaving 10% as a pause
+    tone(11, melody[thisNote], noteDuration*0.9);
 
-    // to distinguish the notes, set a minimum time between them.
-    int pauseBetweenNotes = noteDuration * 1.1;
-    delay(pauseBetweenNotes);
-    // stop the tone playing:
+    // Wait for the specief duration before playing the next note.
+    delay(noteDuration);
+    
+    // stop the waveform generation before the next note.
     noTone(11);
   }
-  
 }
 
 void loop() {
