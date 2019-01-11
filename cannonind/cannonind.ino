@@ -1,4 +1,24 @@
+/* 
+  Pachelbel's Canon
+  Connect a piezo buzzer or speaker to pin 11 or select a new pin.
+  More songs available at https://github.com/robsoncouto/arduino-melodies                                            
+                                              
+                                              Robson Couto, 2019
+*/
 
+#define NOTE_B0  31
+#define NOTE_C1  33
+#define NOTE_CS1 35
+#define NOTE_D1  37
+#define NOTE_DS1 39
+#define NOTE_E1  41
+#define NOTE_F1  44
+#define NOTE_FS1 46
+#define NOTE_G1  49
+#define NOTE_GS1 52
+#define NOTE_A1  55
+#define NOTE_AS1 58
+#define NOTE_B1  62
 #define NOTE_C2  65
 #define NOTE_CS2 69
 #define NOTE_D2  73
@@ -81,6 +101,9 @@
 // change this to make the song slower or faster
 int tempo = 100;
 
+// change this to whichever pin you want to use
+int buzzer = 11;
+
 // notes of the moledy followed by the duration.
 // a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
 // !!negative numbers are used to represent dotted notes,
@@ -152,13 +175,13 @@ void setup() {
     }
 
     // we only play the note for 90% of the duration, leaving 10% as a pause
-    tone(11, melody[thisNote], noteDuration * 0.9);
+    tone(buzzer, melody[thisNote], noteDuration * 0.9);
 
     // Wait for the specief duration before playing the next note.
     delay(noteDuration);
 
     // stop the waveform generation before the next note.
-    noTone(11);
+    noTone(buzzer);
   }
 }
 
