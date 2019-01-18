@@ -1,3 +1,11 @@
+/* 
+  The legend of Zelda theme 
+  Connect a piezo buzzer or speaker to pin 11 or select a new pin.
+  More songs available at https://github.com/robsoncouto/arduino-melodies                                            
+                                              
+                                              Robson Couto, 2019
+*/
+
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -91,6 +99,9 @@
 
 int tempo=88; 
 
+// change this to whichever pin you want to use
+int buzzer = 11;
+
 // notes of the moledy followed by the duration.
 // a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
 // !!negative numbers are used to represent dotted notes,
@@ -157,13 +168,13 @@ void setup() {
     }
 
     // we only play the note for 90% of the duration, leaving 10% as a pause
-    tone(11, melody[thisNote], noteDuration*0.9);
+    tone(buzzer, melody[thisNote], noteDuration*0.9);
 
     // Wait for the specief duration before playing the next note.
     delay(noteDuration);
     
     // stop the waveform generation before the next note.
-    noTone(11);
+    noTone(buzzer);
   }
   
 }
