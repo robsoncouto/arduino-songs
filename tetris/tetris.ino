@@ -1,3 +1,11 @@
+/* 
+  Tetris theme - (Korobeiniki) 
+  Connect a piezo buzzer or speaker to pin 11 or select a new pin.
+  More songs available at https://github.com/robsoncouto/arduino-melodies                                            
+                                              
+                                              Robson Couto, 2019
+*/
+
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -89,7 +97,11 @@
 #define NOTE_DS8 4978
 #define PAUSE 0
 
+// change this to make the song slower or faster
 int tempo=144; 
+
+// change this to whichever pin you want to use
+int buzzer = 11;
 
 // notes of the moledy followed by the duration.
 // a 4 means a quarter note, 8 an eighteenth , 16 sixteenth, so on
@@ -129,7 +141,6 @@ int melody[] = {
   NOTE_C5,4,   NOTE_E5,4,  NOTE_A5,2,
   NOTE_GS5,2,
 
-  
 };
 
 // sizeof gives the number of bytes, each int value is composed of two bytes (16 bits)
@@ -158,13 +169,13 @@ void setup() {
     }
 
     // we only play the note for 90% of the duration, leaving 10% as a pause
-    tone(11, melody[thisNote], noteDuration*0.9);
+    tone(buzzer, melody[thisNote], noteDuration*0.9);
 
     // Wait for the specief duration before playing the next note.
     delay(noteDuration);
     
     // stop the waveform generation before the next note.
-    noTone(11);
+    noTone(buzzer);
   }
 }
 
