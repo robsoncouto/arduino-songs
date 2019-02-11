@@ -6,7 +6,6 @@
                                               Robson Couto, 2019
 */
 
-
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -205,7 +204,7 @@ int melody[] = {
 
 // sizeof gives the number of bytes, each int value is composed of two bytes (16 bits)
 // there are two values per note (pitch and duration), so for each note there are four bytes
-int notes = sizeof(melody) / 2 / 2;
+int notes = sizeof(melody) / sizeof(melody[0]) / 2;
 
 // this calculates the duration of a whole note in ms
 int wholenote = (60000 * 4) / tempo;
