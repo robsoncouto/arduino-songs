@@ -8,7 +8,10 @@ If you want to compare the code with the original score, I try to group the note
 
 ## Hardware
 
-Just connect an piezo buzzer to the board and you are good to go. Pin 11 is used in every sketch because a piezo buzzer can be connected between it and the close GND pin without any wiring.
+Just connect an piezo to the board and you are good to go. Pin 11 is used in every sketch because a piezo speaker can be connected between it and the close GND pin without any wiring.
+
+There are two kinds of piezo buzzers, one has circuitry that with make it virbate on a specific pitch. These are not good for this purpose. You can test the piezo speaker with the "blink" example, the good piezo speker will just click, while the other kind will play a pitch.  
+
 
 ## List of tunes
 
