@@ -1,5 +1,4 @@
-# arduino-music
-Tunes for playing on Arduino boards.
+# Songs for playing on Arduino boards.
 
 ## Usage
 
@@ -21,4 +20,4 @@ I have been learning sight reading and thought this would help.
 
 ## Copyright
 
-Every sketch here has been written by myself, although based on scores I found online or books I own. These scores are linked in eah file when possible. I only kindly ask that you give credit if you use these codes on a tutorial, video, etc. 
+Every sketch here has been written by myself, although based on scores I found online or books I own. These scores are linked in eah file when possible. You can use them for anything, I only kindly ask that you give credit if you use these codes on a tutorial, video, example, etc. 
