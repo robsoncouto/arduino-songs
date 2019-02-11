@@ -2,7 +2,7 @@
 
 ## Usage
 
-Every code here should run on every arduino board without problems. The sketchs rely solely on the tone() function from Arduino, so the sounds are all monophonic. On the bright side, **libraries are not required**.
+Every code here should run on every arduino board without problems. The sketches rely solely on the tone() function from Arduino, so the sounds are all monophonic. On the bright side, **libraries are not required**.
 
 If you want to compare the code with the original score, I try to group the notes in measures with lines and into staves with groups of lines. However, in some cases notes will be tied together among measures or be dotted and this rule is broken.
 
