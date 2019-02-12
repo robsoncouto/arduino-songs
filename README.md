@@ -41,6 +41,7 @@ There are two kinds of piezo buzzers, one has circuitry that will make it vibrat
 * [Greensleeves](https://github.com/robsoncouto/arduino-melodies/blob/master/greensleeves/greensleeves.ino)
 * [Ode to Joy -  Beethoven's Symphony No. 9](https://github.com/robsoncouto/arduino-melodies/blob/master/odetojoy/odetojoy.ino)
 * [Prince Igor - Borodin's Polovtsian Dances](https://github.com/robsoncouto/arduino-melodies/blob/master/princeigor/princeigor.ino)
+* [Minuet in G - Christian Petzold](https://github.com/robsoncouto/arduino-melodies/blob/master/minuetg/minuetg.ino)
 
 ### Others
 
@@ -49,6 +50,8 @@ There are two kinds of piezo buzzers, one has circuitry that will make it vibrat
 * [Take on me A-ha](https://github.com/robsoncouto/arduino-melodies/blob/master/takeonme/takeonme.ino)
 * [The lick](https://github.com/robsoncouto/arduino-melodies/blob/master/thelick/thelick.ino)
 * [The Lion sleeps tonight (*A-weema-weh*)](https://github.com/robsoncouto/arduino-melodies/blob/master/thelionsleepstonight/thelionsleepstonight.ino)
+* [Take on me](https://github.com/robsoncouto/arduino-melodies/blob/master/takeonme/takeonme.ino)
+* [Keyboard cat](https://github.com/robsoncouto/arduino-melodies/blob/master/keyboardcat/keyboardcat.ino)
 
 ## Copyright
 
