@@ -12,7 +12,7 @@ Just connect an piezo to the board and you are good to go. Pin 11 is used in eve
 
 ![alt tag](hardware.png)
 
-There are two kinds of piezo buzzers, one has circuitry that will make it vibrate on a specific pitch. These are not good for this purpose. You can test the piezo speaker with the "blink" example, the good piezo speaker will just click, while the other kind will play a pitch.  
+There are two kinds of piezo buzzers: active and passive. The active one that plays a specific pitch when powevered and are not good for this purpose. The passive kind functions like a speaker, reproducing the pitch you apply to it. You can test the piezo speaker with the "blink" example, the good piezo speaker will just click, while the other kind will play a pitch every other second.  
 
 ## List of tunes
 
