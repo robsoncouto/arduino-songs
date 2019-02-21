@@ -95,7 +95,7 @@
 #define NOTE_CS8 4435
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
-#define PAUSE 0
+#define REST 0
 
 int tempo=88; 
 
@@ -114,7 +114,7 @@ int melody[] = {
   NOTE_GS4,16,  NOTE_FS4,16,  NOTE_GS4,-2,
   NOTE_AS4,-2,  NOTE_FS4,8,  NOTE_FS4,8,  NOTE_AS4,8,
   NOTE_A4,16,  NOTE_G4,16,  NOTE_A4,-2,
-  PAUSE,1, 
+  REST,1, 
 
   NOTE_AS4,4,  NOTE_F4,-4,  NOTE_AS4,8,  NOTE_AS4,16,  NOTE_C5,16, NOTE_D5,16, NOTE_DS5,16,//7
   NOTE_F5,2,  NOTE_F5,8,  NOTE_F5,8,  NOTE_F5,8,  NOTE_FS5,16, NOTE_GS5,16,

@@ -95,7 +95,7 @@
 #define NOTE_CS8 4435
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
-#define PAUSE 0
+#define REST 0
 
 // change this to make the song slower or faster
 int tempo=144; 
@@ -119,7 +119,7 @@ int melody[] = {
   NOTE_D5, -4,  NOTE_F5,8,  NOTE_A5,4,  NOTE_G5,8,  NOTE_F5,8,
   NOTE_E5, -4,  NOTE_C5,8,  NOTE_E5,4,  NOTE_D5,8,  NOTE_C5,8,
   NOTE_B4, 4,  NOTE_B4,8,  NOTE_C5,8,  NOTE_D5,4,  NOTE_E5,4,
-  NOTE_C5, 4,  NOTE_A4,4,  NOTE_A4,4, PAUSE, 4,
+  NOTE_C5, 4,  NOTE_A4,4,  NOTE_A4,4, REST, 4,
 
   NOTE_E5, 4,  NOTE_B4,8,  NOTE_C5,8,  NOTE_D5,4,  NOTE_C5,8,  NOTE_B4,8,
   NOTE_A4, 4,  NOTE_A4,8,  NOTE_C5,8,  NOTE_E5,4,  NOTE_D5,8,  NOTE_C5,8,
@@ -129,13 +129,13 @@ int melody[] = {
   NOTE_D5, -4,  NOTE_F5,8,  NOTE_A5,4,  NOTE_G5,8,  NOTE_F5,8,
   NOTE_E5, -4,  NOTE_C5,8,  NOTE_E5,4,  NOTE_D5,8,  NOTE_C5,8,
   NOTE_B4, 4,  NOTE_B4,8,  NOTE_C5,8,  NOTE_D5,4,  NOTE_E5,4,
-  NOTE_C5, 4,  NOTE_A4,4,  NOTE_A4,4, PAUSE, 4,
+  NOTE_C5, 4,  NOTE_A4,4,  NOTE_A4,4, REST, 4,
   
 
   NOTE_E5,2,  NOTE_C5,2,
   NOTE_D5,2,   NOTE_B4,2,
   NOTE_C5,2,   NOTE_A4,2,
-  NOTE_GS4,2,  NOTE_B4,4,  PAUSE,8, 
+  NOTE_GS4,2,  NOTE_B4,4,  REST,8, 
   NOTE_E5,2,   NOTE_C5,2,
   NOTE_D5,2,   NOTE_B4,2,
   NOTE_C5,4,   NOTE_E5,4,  NOTE_A5,2,

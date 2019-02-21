@@ -95,7 +95,7 @@
 #define NOTE_CS8 4435
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
-#define PAUSE 0
+#define REST 0
 
 // change this to make the song slower or faster
 int tempo = 144;
@@ -113,7 +113,7 @@ int melody[] = {
   // Hedwig's theme fromn the Harry Potter Movies
   // Socre from https://musescore.com/user/3811306/scores/4906610
   
-  PAUSE, 2, NOTE_D4, 4,
+  REST, 2, NOTE_D4, 4,
   NOTE_G4, -4, NOTE_AS4, 8, NOTE_A4, 4,
   NOTE_G4, 2, NOTE_D5, 4,
   NOTE_C5, -2, 
@@ -139,7 +139,7 @@ int melody[] = {
   NOTE_AS4, -4, NOTE_D5, 8, NOTE_CS5, 4,
   NOTE_CS4, 2, NOTE_D4, 4,
   NOTE_D5, -1, 
-  PAUSE,4, NOTE_AS4,4,  
+  REST,4, NOTE_AS4,4,  
 
   NOTE_D5, 2, NOTE_AS4, 4,//26
   NOTE_D5, 2, NOTE_AS4, 4,

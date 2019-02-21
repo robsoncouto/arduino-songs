@@ -95,7 +95,7 @@
 #define NOTE_CS8 4435
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
-#define PAUSE      0
+#define REST      0
 
 
 // change this to make the song slower or faster
@@ -114,13 +114,13 @@ int melody[] = {
   // Score available at https://musescore.com/user/4957541/scores/1545401
   
   NOTE_D4,4, NOTE_A4,4, NOTE_A4,4,
-  PAUSE,8, NOTE_E4,8, NOTE_B4,2,
+  REST,8, NOTE_E4,8, NOTE_B4,2,
   NOTE_F4,4, NOTE_C5,4, NOTE_C5,4,
-  PAUSE,8, NOTE_E4,8, NOTE_B4,2,
+  REST,8, NOTE_E4,8, NOTE_B4,2,
   NOTE_D4,4, NOTE_A4,4, NOTE_A4,4,
-  PAUSE,8, NOTE_E4,8, NOTE_B4,2,
+  REST,8, NOTE_E4,8, NOTE_B4,2,
   NOTE_F4,4, NOTE_C5,4, NOTE_C5,4,
-  PAUSE,8, NOTE_E4,8, NOTE_B4,2,
+  REST,8, NOTE_E4,8, NOTE_B4,2,
   NOTE_D4,8, NOTE_F4,8, NOTE_D5,2,
   
   NOTE_D4,8, NOTE_F4,8, NOTE_D5,2,

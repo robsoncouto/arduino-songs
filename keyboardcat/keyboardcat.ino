@@ -94,7 +94,7 @@
 #define NOTE_CS8 4435
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
-#define PAUSE      0
+#define REST      0
 
 
 // change this to make the song slower or faster
@@ -112,8 +112,8 @@ int melody[] = {
   // Keyboard cat
   // Score available at https://musescore.com/user/142788/scores/147371
 
-    PAUSE,1,
-    PAUSE,1,
+    REST,1,
+    REST,1,
     NOTE_C4,4, NOTE_E4,4, NOTE_G4,4, NOTE_E4,4, 
     NOTE_C4,4, NOTE_E4,8, NOTE_G4,-4, NOTE_E4,4,
     NOTE_A3,4, NOTE_C4,4, NOTE_E4,4, NOTE_C4,4,
