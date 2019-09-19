@@ -12,7 +12,7 @@ Just connect an piezo to the board and you are good to go. Pin 11 is used in eve
 
 ![alt tag](hardware.png)
 
-There are two kinds of piezo buzzers: active and passive. The active one that plays a specific pitch when powevered and are not good for this purpose. The passive kind functions like a speaker, reproducing the pitch you apply to it. You can test the piezo speaker with the "blink" example, the good piezo speaker will just click, while the other kind will play a pitch every other second.  
+There are two kinds of piezo buzzers: active and passive. The active one that plays a specific pitch when powevered and is not good for this purpose. The passive kind functions like a speaker, reproducing the pitch you apply to it. You can test the piezo speaker with the "blink" example, the good piezo speaker will just click, while the other kind will play a pitch every other second.  
 
 ## List of tunes
 
@@ -35,6 +35,7 @@ There are two kinds of piezo buzzers: active and passive. The active one that pl
 * [Tetris theme (Korobeiniki)](https://github.com/robsoncouto/arduino-songs/blob/master/tetris/tetris.ino)
 * [Zelda's Lullaby from *The Legend of Zelda Ocarina of time*](https://github.com/robsoncouto/arduino-songs/blob/master/zeldaslullaby/zeldaslullaby.ino)
 * [The Legend of Zelda for the NES](https://github.com/robsoncouto/arduino-songs/blob/master/zeldatheme/zeldatheme.ino)
+* [Pacman](https://github.com/robsoncouto/arduino-songs/blob/master/pacman/pacman.ino)
 
 ### Classic
 * [Cannon in D - Pachelbel](https://github.com/robsoncouto/arduino-songs/blob/master/cannonind/cannonind.ino)
@@ -52,6 +53,7 @@ There are two kinds of piezo buzzers: active and passive. The active one that pl
 * [The Lion sleeps tonight (*A-weema-weh*)](https://github.com/robsoncouto/arduino-songs/blob/master/thelionsleepstonight/thelionsleepstonight.ino)
 * [Take on me](https://github.com/robsoncouto/arduino-songs/blob/master/takeonme/takeonme.ino)
 * [Keyboard cat](https://github.com/robsoncouto/arduino-songs/blob/master/keyboardcat/keyboardcat.ino)
+* [Nokia Ringtone](https://github.com/robsoncouto/arduino-songs/blob/master/nokia/nokia.ino)
 
 ## Copyright
 
