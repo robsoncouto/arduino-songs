@@ -110,7 +110,7 @@ int buzzer = 11;
 int melody[] = {
 
   // Take on me, by A-ha
-  // Score available at https://musescore.com/user/190926/scores/181370
+  // Score available at https://musescore.com/user/27103612/scores/4834399
   // Arranged by Edward Truong
 
   NOTE_FS5,8, NOTE_FS5,8,NOTE_D5,8, NOTE_B4,8, REST,8, NOTE_B4,8, REST,8, NOTE_E5,8, 
