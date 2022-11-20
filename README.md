@@ -1,3 +1,4 @@
+
 # Songs for playing on Arduino boards.
 
 ## Usage
@@ -23,19 +24,27 @@ There are two kinds of piezo buzzers: active and passive. The active one that pl
 * [Hedwig's theme from Harry Potter](https://github.com/robsoncouto/arduino-songs/blob/master/harrypotter/harrypotter.ino)
 * [Star Wars theme](https://github.com/robsoncouto/arduino-songs/blob/master/starwars/starwars.ino)
 * [Pulo da gaita from the Brazilian Movie *O Auto da Compadecida*](https://github.com/robsoncouto/arduino-songs/blob/master/pulodagaita/pulodagaita.ino)
+* [Brahm's Lullaby](https://github.com/robsoncouto/arduino-songs/blob/master/brahmslullaby/brahmslullaby.ino)
+* [Game of Thrones](https://github.com/robsoncouto/arduino-songs/blob/master/gameofthrones/gameofthrones.ino)
+* [Silent Night](https://github.com/robsoncouto/arduino-songs/blob/master/silentnight/silentnight.ino)
+* [Star Trek](https://github.com/robsoncouto/arduino-songs/blob/master/startrekintro/startrekintro.ino)
+* [Godfather theme](https://github.com/robsoncouto/arduino-songs/blob/master/thegodfather/thegodfather.ino)
   
 ### Games
 
 * [Bloody Tears from Castlevania II](https://github.com/robsoncouto/arduino-songs/blob/master/bloodytears/bloodytears.ino)
 * [Green Hill Zone from *Sonic the Hedgehog*](https://github.com/robsoncouto/arduino-songs/blob/master/greenhill/greenhill.ino)
 * [Mii channel theme](https://github.com/robsoncouto/arduino-songs/blob/master/miichannel/miichannel.ino)
-* [Professor Layton's theme from *Professor Layton and the Curious Village*](https://github.com/robsoncouto/arduino-songs)
+* [Professor Layton's theme from *Professor Layton and the Curious Village*](https://github.com/robsoncouto/arduino-songs/blob/master/professorlayton/professorlayton.ino)
 * [Song of stomrs from *The Legend of Zelda Ocarina of time*](https://github.com/robsoncouto/arduino-songs/blob/master/songofstorms/songofstorms.ino)
 * [Super Mario Bros' overworld theme](https://github.com/robsoncouto/arduino-songs/blob/master/supermariobros/supermariobros.ino)
 * [Tetris theme (Korobeiniki)](https://github.com/robsoncouto/arduino-songs/blob/master/tetris/tetris.ino)
 * [Zelda's Lullaby from *The Legend of Zelda Ocarina of time*](https://github.com/robsoncouto/arduino-songs/blob/master/zeldaslullaby/zeldaslullaby.ino)
 * [The Legend of Zelda for the NES](https://github.com/robsoncouto/arduino-songs/blob/master/zeldatheme/zeldatheme.ino)
 * [Pacman](https://github.com/robsoncouto/arduino-songs/blob/master/pacman/pacman.ino)
+* [Doom](https://github.com/robsoncouto/arduino-songs/blob/master/doom/doom.ino)
+* [Jigglypuff's Song](https://github.com/robsoncouto/arduino-songs/blob/master/jigglypuffsong/jigglypuffsong.ino)
+* [Vampire Killer](https://github.com/robsoncouto/arduino-songs/blob/master/vampirekiller/vampirekiller.ino)
 
 ### Classic
 * [Cannon in D - Pachelbel](https://github.com/robsoncouto/arduino-songs/blob/master/cannonind/cannonind.ino)
@@ -43,6 +52,8 @@ There are two kinds of piezo buzzers: active and passive. The active one that pl
 * [Ode to Joy -  Beethoven's Symphony No. 9](https://github.com/robsoncouto/arduino-songs/blob/master/odetojoy/odetojoy.ino)
 * [Prince Igor - Borodin's Polovtsian Dances](https://github.com/robsoncouto/arduino-songs/blob/master/princeigor/princeigor.ino)
 * [Minuet in G - Christian Petzold](https://github.com/robsoncouto/arduino-songs/blob/master/minuetg/minuetg.ino)
+* [Fur Elise](https://github.com/robsoncouto/arduino-songs/blob/master/furelise/furelise.ino)
+* [Badinerie](https://github.com/robsoncouto/arduino-songs/blob/master/thebadinerie/badinerie.ino)
 
 ### Others
 
@@ -53,7 +64,12 @@ There are two kinds of piezo buzzers: active and passive. The active one that pl
 * [The Lion sleeps tonight (*A-weema-weh*)](https://github.com/robsoncouto/arduino-songs/blob/master/thelionsleepstonight/thelionsleepstonight.ino)
 * [Take on me](https://github.com/robsoncouto/arduino-songs/blob/master/takeonme/takeonme.ino)
 * [Keyboard cat](https://github.com/robsoncouto/arduino-songs/blob/master/keyboardcat/keyboardcat.ino)
+* [Baby Elephant Walk](https://github.com/robsoncouto/arduino-songs/blob/master/babyelephantwalk/babyelephantwalk.ino)
+* [Happy Birthday](https://github.com/robsoncouto/arduino-songs/blob/master/happybirthday/happybirthday.ino)
 * [Nokia Ringtone](https://github.com/robsoncouto/arduino-songs/blob/master/nokia/nokia.ino)
+* [We Wish You a Merry Christmas](https://github.com/robsoncouto/arduino-songs/blob/master/merrychristmas/merrychristmas.ino)
+* [Never Gonna Give You Up](https://github.com/robsoncouto/arduino-songs/blob/master/nevergonnagiveyouup/nevergonnagiveyouup.ino)
+
 
 ## Copyright
 
