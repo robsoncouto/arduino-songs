@@ -110,9 +110,7 @@ int buzzer = 11;
 // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
 int melody[] = {
   
-  // Dart Vader theme (Imperial March) - Star wars 
-  // Score available at https://musescore.com/user/202909/scores/1141521
-  // The tenor saxophone part was used
+  // Star Wars Main Theme 
   
   NOTE_AS4,8, NOTE_AS4,8, NOTE_AS4,8,//1
   NOTE_F5,2, NOTE_C6,2,
