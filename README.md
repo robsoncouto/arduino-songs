@@ -51,7 +51,6 @@ There are two kinds of piezo buzzers: active and passive. The active one that pl
 * [Take on me A-ha](https://github.com/robsoncouto/arduino-songs/blob/master/takeonme/takeonme.ino)
 * [The lick](https://github.com/robsoncouto/arduino-songs/blob/master/thelick/thelick.ino)
 * [The Lion sleeps tonight (*A-weema-weh*)](https://github.com/robsoncouto/arduino-songs/blob/master/thelionsleepstonight/thelionsleepstonight.ino)
-* [Take on me](https://github.com/robsoncouto/arduino-songs/blob/master/takeonme/takeonme.ino)
 * [Keyboard cat](https://github.com/robsoncouto/arduino-songs/blob/master/keyboardcat/keyboardcat.ino)
 * [Nokia Ringtone](https://github.com/robsoncouto/arduino-songs/blob/master/nokia/nokia.ino)
 
