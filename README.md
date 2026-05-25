@@ -1,3 +1,12 @@
+
+The song files made usable for Arduino Uno Jenny by changing ```int buzzer = 11``` for ```int buzzer = 8```
+
+
+
+Have fun!
+
+
+
 # Songs for playing on Arduino boards.
 
 ## Usage
